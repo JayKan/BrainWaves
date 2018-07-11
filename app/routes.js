@@ -1,9 +1,9 @@
 /* eslint flowtype-errors/show-errors: 0 */
-import React from "react";
-import { Switch, Route } from "react-router";
-import App from "./containers/App";
-import HomePage from "./containers/HomePage";
-import ExperimentRunPage from "./containers/ExperimentRunPage";
+import React from "../../.cache/typescript/2.9/node_modules/@types/react";
+import { Switch, Route } from "../../.cache/typescript/2.9/node_modules/@types/react-router";
+import App from "./common/App";
+import HomePage from "./common/HomePage";
+import ExperimentRunPage from "./experiment/ExperimentRunPage";
 
 export default () => (
   <App>

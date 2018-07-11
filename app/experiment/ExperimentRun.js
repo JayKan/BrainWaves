@@ -1,7 +1,7 @@
 // @flow
 import React, { Component } from "react";
 import { Grid, Button } from "semantic-ui-react";
-import { Experiment } from "jspsych-react";
+import { Experiment } from "../../../jspsych-react/dist/experiment";
 import { isNil } from "lodash";
 import styles from "./ExperimentRun.css";
 import callback_html_display from "../utils/jspsych/plugins/callback_html_display";
